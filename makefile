@@ -4,7 +4,7 @@ SOURCES = *.cpp
 
 LIBS =  -lSDL2 -lSDL2_ttf
 
-FLAGS = -Wall
+FLAGS = -Wall -DGLM_ENABLE_EXPERIMENTAL
 
 STD = --std=c++11
 
